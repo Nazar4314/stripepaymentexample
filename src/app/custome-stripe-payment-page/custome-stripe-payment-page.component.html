@@ -1,0 +1,19 @@
+<form (submit)="handleForm($event)">
+
+
+    <div #cardElement class=" form-control ">
+        <!-- A Stripe Element will be inserted here. -->
+    </div>
+
+
+    <!-- Used to display Element errors. -->
+
+
+    {{ cardErrors }}
+
+
+
+    <hr>
+
+    <button class="btn btn-success form-control "> Buy for ${{amount}}</button>
+</form>

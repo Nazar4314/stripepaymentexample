@@ -1,0 +1,17 @@
+<label>Amount avilable</label>
+<input type="text" [value]="amountavilable" class="form-control" disabled>
+<hr>
+<label>Amount paying</label>
+<input type="number" [(ngModel)]="amountpaying" class="form-control">
+<hr>
+<button (click)="checkout($event)" class="btn btn-success form-control">
+  
+    Buy for ${{amountpaying}}
+  
+  </button>
+
+
+
+<hr>
+
+<div *ngIf="loading">Loading....</div>
