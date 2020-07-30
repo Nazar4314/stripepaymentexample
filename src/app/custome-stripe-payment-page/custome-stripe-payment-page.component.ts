@@ -30,7 +30,7 @@ amountpaying:number;
 
   ngOnInit() {
 
-    this.stripe = Stripe('pk_test_aeUUjYYcx4XNfKVW60pmHTtI');
+    this.stripe = Stripe('pk_test_51HATQfFHw2WhVXNVnOnbfD4u5NK6uE6y1UXyZY4LxQ7PuxB3STuepiUDte9HPY9eXjqnc9cWSjkuENTm72PpeD1T00Q8gQGFfc');
     const elements = this.stripe.elements();
 
     this.card = elements.create('card');

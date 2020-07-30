@@ -23,7 +23,7 @@ amountpaying:number=0;
   ngOnInit() {
 
     this.handler = StripeCheckout.configure({
-      key: 'pk_test_aeUUjYYcx4XNfKVW60pmHTtI',
+      key: 'pk_test_51HATQfFHw2WhVXNVnOnbfD4u5NK6uE6y1UXyZY4LxQ7PuxB3STuepiUDte9HPY9eXjqnc9cWSjkuENTm72PpeD1T00Q8gQGFfc',
       image: 'assets/abc.png',
       locale: 'auto',
       amount: this.amountpaying,
